@@ -1,0 +1,676 @@
+{
+    "file_name": "CMA0PCUA",
+    "column_delimiter": "\t",
+	"row_delimiter": "\r\n",
+	"header_row" : 0,
+    "endcoding": "utf-8",	
+     "columns": {
+			"0": {
+				"name": "ExtractionDate_DT",
+				"type": "date",
+				"date_format":"^^([0-2][0-9]|3[01])-(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)-\\d{4} ([01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d$"
+				},
+			"1": {
+				"name": "CustomerNumber_CD",
+				"type": "string",
+				"max_length": 30
+				},
+			"2": {
+				"name": "OperatingUnit_LB",
+				"type": "string",
+				"max_length": 60
+				},
+			"3": {
+				"name": "Address_ID",
+				"type": "numeric"
+				},
+				"4": {
+				"name": "CreationDate_DT",
+				"type": "date",
+				"date_format":"^^([0-2][0-9]|3[01])-(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)-\\d{4} ([01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d$"
+				},
+				"5": {
+				"name": "LastUpdateDate_DT",
+				"type": "date",
+				"date_format":"^^([0-2][0-9]|3[01])-(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)-\\d{4} ([01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d$"
+				},
+				"6": {
+				"name": "SalesRepresentative_LB",
+				"type": "string",
+				"max_length": 150
+				},
+				"7": {
+				"name": "SalesRepNumberShipTo_LB",
+				"type": "string",
+				"max_length": 30
+				},
+				"8": {
+				"name": "BillToFlag_FL",
+				"type": "string",
+				"max_length": 1
+				},
+				"9": {
+				"name": "MarketFlag_FL",
+				"type": "string",
+				"max_length": 1
+				},
+				"10": {
+				"name": "ShipToFlag_FL",
+				"type": "string",
+				"max_length": 1
+				},
+				"11": {
+				"name": "CustomerProvince_LB",
+				"type": "string",
+				"max_length": 60
+				},
+				"12": {
+				"name": "CustomerCounty_LB",
+				"type": "string",
+				"max_length": 60
+				},
+				"13": {
+				"name": "CustomerCountryCode_CD",
+				"type": "string",
+				"max_length": 60
+				},
+				"14": {
+				"name": "CustomerAddress1_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"15": {
+				"name": "CustomerAddress2_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"16": {
+				"name": "CustomerCity_LB",
+				"type": "string",
+				"max_length": 60
+				},
+				"17": {
+				"name": "CustomerState_LB",
+				"type": "string",
+				"max_length": 60
+				},
+				"18": {
+				"name": "CustomerZipCode_CD",
+				"type": "string",
+				"max_length": 60
+				},
+				"19": {
+				"name": "DescriptiveFlexfield_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"20": {
+				"name": "OMANumber_CD",
+				"type": "string",
+				"max_length": 240
+				},
+				"21": {
+				"name": "StoreNumber_CD",
+				"type": "string",
+				"max_length": 240
+				},
+				"22": {
+				"name": "AlternalSalesRep_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"23": {
+				"name": "PackListFormat_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"24": {
+				"name": "LenscraftersReleaseDay_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"25": {
+				"name": "NoteDefaultShipping_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"26": {
+				"name": "NoteDefaultPacking_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"27": {
+				"name": "NoteInternalOM_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"28": {
+				"name": "SeparateDelivery_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"29": {
+				"name": "BackorderCancellationDays_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"30": {
+				"name": "ShivaID_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"31": {
+				"name": "PkmsBolType_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"32": {
+				"name": "CartonLabelType_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"33": {
+				"name": "PkmsContainerDetailRequired_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"34": {
+				"name": "AddressAttribute16_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"35": {
+				"name": "AddressAttribute17_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"36": {
+				"name": "AddressAttribute18_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"37": {
+				"name": "AddressAttribute19_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"38": {
+				"name": "AddressAttribute20_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"39": {
+				"name": "BillToStatusFlag_FL",
+				"type": "string",
+				"max_length": 1
+				},
+				"40": {
+				"name": "CometAcctCustNumber_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"41": {
+				"name": "ExternalInvoicingSystem_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"42": {
+				"name": "NotifyLocation_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"43": {
+				"name": "MadeInPrintingOnInvoice_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"44": {
+				"name": "Language_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"45": {
+				"name": "CometTariffGroup_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"46": {
+				"name": "ProcingMode_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"47": {
+				"name": "ForecastGroupByBillTo_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"48": {
+				"name": "BillToSiteAttribute9_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"49": {
+				"name": "PrintDiscount_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"50": {
+				"name": "Currency_CD",
+				"type": "string",
+				"max_length": 240
+				},
+				"51": {
+				"name": "InvoicedSiteI1_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"52": {
+				"name": "DematerializedInvoicing_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"53": {
+				"name": "BillToSiteAttribute14_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"54": {
+				"name": "InvoiceCopies_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"55": {
+				"name": "WarningCommlSupplierOU_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"56": {
+				"name": "EDIAddress_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"57": {
+				"name": "InvoiceAdviceFormat_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"58": {
+				"name": "URMInvoicingCode_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"59": {
+				"name": "DirectFlowInvoicingI1_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"60": {
+				"name": "BillToSiteAttribute21_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"61": {
+				"name": "BillToSiteAttribute22_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"62": {
+				"name": "BillToSiteAttribute23_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"63": {
+				"name": "BillToSiteAttribute24_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"64": {
+				"name": "BillToSiteAttribute25_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"65": {
+				"name": "ShipToStatusFlag_FL",
+				"type": "string",
+				"max_length": 1
+				},
+				"66": {
+				"name": "ForecstGroupByShipTo_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"67": {
+				"name": "ShipToSiteAttribute1_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"68": {
+				"name": "Consignee_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"69": {
+				"name": "MadeInPrintingOnLabels_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"70": {
+				"name": "ShipToSiteAttribute5_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"71": {
+				"name": "EDILogAddress_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"72": {
+				"name": "ShipToSiteAttribute7_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"73": {
+				"name": "SeparatedShipmentInvoice_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"74": {
+				"name": "ShipToNameOnInvoice_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"75": {
+				"name": "LanelsAdditionalInfo_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"76": {
+				"name": "EDIFormatAcknowledgment_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"77": {
+				"name": "EDIFormatForShipment_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"78": {
+				"name": "PackingListSTyle_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"79": {
+				"name": "prePackingCase_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"80": {
+				"name": "PrePackingType_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"81": {
+				"name": "EdiAsnDcCenter_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"82": {
+				"name": "ShipToSiteAttribute17_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"83": {
+				"name": "SASShipToCustomerNumber_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"84": {
+				"name": "WarningMessage_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"85": {
+				"name": "ShipToSiteAttribute20_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"86": {
+				"name": "SendShippedDate_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"87": {
+				"name": "tempASNOnCrossDockFLow_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"88": {
+				"name": "MultiSupplierInvoices_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"89": {
+				"name": "CommercialSupplierOU_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"90": {
+				"name": "ShippingByOrder_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"91": {
+				"name": "MailingList1_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"92": {
+				"name": "MailingList2_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"93": {
+				"name": "MailingList3_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"94": {
+				"name": "AddressContactAttribute4_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"95": {
+				"name": "AddressContactAttribute5_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"96": {
+				"name": "AddressContactAttribute6_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"97": {
+				"name": "AddressContactAttribute7_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"98": {
+				"name": "AddressContactAttribute8_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"99": {
+				"name": "AddressContactAttribute9_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"100": {
+				"name": "AddressContactAttribute10_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"101": {
+				"name": "AddressContactAttribute11_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"102": {
+				"name": "AddressContactAttribute12_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"103": {
+				"name": "AddressContactAttribute13_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"104": {
+				"name": "AddressContactAttribute14_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"105": {
+				"name": "AddressContactAttribute15_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"106": {
+				"name": "AddressContactAttribute16_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"107": {
+				"name": "AddressContactAttribute17_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"108": {
+				"name": "AddressContactAttribute18_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"109": {
+				"name": "AddressContactAttribute19_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"110": {
+				"name": "AddressContactAttribute20_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"111": {
+				"name": "ShipMethodCode_CD",
+				"type": "string",
+				"max_length": 30
+				},
+				"112": {
+				"name": "LocalCarrier_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"113": {
+				"name": "LocalFreightServiceLevel_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"114": {
+				"name": "DCCarrier_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"115": {
+				"name": "DCFreightServiceLevel_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"116": {
+				"name": "ShipMethodAttribute5_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"117": {
+				"name": "ShipMethodAttribute6_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"118": {
+				"name": "ShipMethodAttribute7_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"119": {
+				"name": "ShipMethodAttribute8_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"120": {
+				"name": "ShipMethodAttribute9_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"121": {
+				"name": "ShipMethodAttribute10_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"122": {
+				"name": "ShipMethodAttribute11_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"123": {
+				"name": "ShipMethodAttribute12_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"124": {
+				"name": "ShipMethodAttribute13_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"125": {
+				"name": "ShipMethodAttribute14_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"126": {
+				"name": "ShipMethodAttribute15_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"127": {
+				"name": "Customer_ID",
+				"type": "numeric"
+				},
+				"128": {
+				"name": "SalesRep_ID",
+				"type": "numeric"
+				},
+				"129": {
+				"name": "CustomerAddress3_LB",
+				"type": "string",
+				"max_length": 240
+				},
+				"130": {
+				"name": "ShipToLocation_LB",
+				"type": "string",
+				"max_length": 20
+				},
+				"131": {
+				"name": "CustomerAddressCategoryCode_LB",
+				"type": "string",
+				"max_length": 30
+				},
+				"132": {
+				"name": "BillToLocation_LB",
+				"type": "string",
+				"max_length": 20
+				},
+				"133": {
+				"name": "SiteNumber_LB",
+				"type": "string",
+				"max_length": 30
+				}
+			}
+}

@@ -1,0 +1,189 @@
+{
+  "file_name": "CMA0PCUR",
+    "column_delimiter": "\t",
+	"row_delimiter": "\r\n",
+	"header_row" : 0,
+  "endcoding": "utf_8",
+	"columns": {
+    "0": {
+      "name": "ExtractionDate_DT",
+      "type": "date"
+    },
+    "1": {
+      "name": "CustomerNumber_CD",
+      "type": "string",
+      "max_length": 30
+    },
+    "2": {
+      "name": "CustomerName_LB",
+      "type": "string",
+      "max_length": 360
+    },
+    "3": {
+      "name": "CustomerCategoryCode_CD",
+      "type": "string",
+      "max_length": 30
+    },
+    "4": {
+      "name": "CustomerCategoryDescription_LB",
+      "type": "string",
+      "max_length": 150
+    },
+    "5": {
+      "name": "ParentInBillingRelationship_LB",
+      "type": "string",
+      "max_length": 150
+    },
+    "6": {
+      "name": "ParentInBillingRelationShipFlag_FL",
+      "type": "string",
+      "max_length": 1
+    },
+    "7": {
+      "name": "CreationDate_DT",
+      "type": "date"
+    },
+    "8": {
+      "name": "LastUpdateDate_DT",
+      "type": "date"
+    },
+    "9": {
+      "name": "StatusFlag_FL",
+      "type": "string",
+      "max_length": 1
+    },
+    "10": {
+      "name": "CustomerType_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "11": {
+      "name": "CustomerClassCode_CD",
+      "type": "string",
+      "max_length": 30
+    },
+    "12": {
+      "name": "CustomerClassDescription_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "13": {
+      "name": "SalesChannelCode_CD",
+      "type": "string",
+      "max_length": 30
+    },
+    "14": {
+      "name": "SalesChannelDescription_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "15": {
+      "name": "CustomerShortName_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "16": {
+      "name": "InvoiceAdviceFormat_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "17": {
+      "name": "CylinderSign_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "18": {
+      "name": "InvoicedSite_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "19": {
+      "name": "EDILogAddress_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "20": {
+      "name": "EDIFormatForAcknowledgment_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "21": {
+      "name": "EDIFormatForShipment_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "22": {
+      "name": "ForecastGroupByBillTo_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "23": {
+      "name": "EFastInternalSOBName_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "24": {
+      "name": "EFast_InternalSiteCode_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "25": {
+      "name": "EFastInternalOrg_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "26": {
+      "name": "EFastTaxCode_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "27": {
+      "name": "MasterCustomerForDRP_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "28": {
+      "name": "ACCPACDistributionCode_CD",
+      "type": "string",
+      "max_length": 240
+    },
+    "29": {
+      "name": "ExtractBFCFile_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "30": {
+      "name": "CustomerLevel_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "31": {
+      "name": "Attribute17_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "32": {
+      "name": "Attribute18_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "33": {
+      "name": "Attribute19_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "34": {
+      "name": "Attribute20_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "35": {
+      "name": "Customer_ID",
+      "type": "integer"
+    },
+    "36": {
+      "name": "RelatedCustomer_ID",
+      "type": "integer"
+    }
+  }
+}

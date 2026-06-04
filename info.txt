@@ -1,0 +1,37 @@
+==========================
+Python auto reject:
+1. Check Over flow in numeric data type => OK
+2. Add line number of error line => OK
+3. Add column name => OK
+	- Header column must be in config => OK
+	- Clean file format must be the same as original => OK
+	- Text quarifier with double quote => OK
+	- Apply with pack loading => OK
+	- Test with customer pack 1
+		see case error and success
+	- Add timestamp in reject filename => OK
+	- The reject file shouldn't delete => OK
+	- Add reject filename with time stamp in summary file => OK
+	- temp folder keep only 1 month
+	- temp folder must in subfolder of "in" folder
+	- create new job to run this python before 2e job
+	- need summary with timestamp
+	- remove validate file after process => OK
+	- list python preriquisite library => OK
+	- keep history version 7 days - request analysts apply the remove file policy => in progress
+	- need AI to build python script to generate json config 
+	- using python function to eva date format
+	- check difference encoding
+	- check end of line (CRLF,LF) =>OK
+	- check with huge file
+
+4. Generate config of column  information
+5. Check data format for int, long ,...
+	- Python get column info from ssis
+6. Attach log and error file in email => queue
+7. Test performance => in progress
+
+* After AGI finished, continue test with customer pack1 with pack data.
+
+--1900-01-01 00:00:00.000
+date_format

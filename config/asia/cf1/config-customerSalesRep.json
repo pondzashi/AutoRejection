@@ -1,0 +1,140 @@
+{	
+  "file_name": "CMA0PCUS",
+    "column_delimiter": "\t",
+	"row_delimiter": "\r\n",
+	"header_row" : 0,
+  "endcoding": "utf_8",
+	"columns": {
+    "0": {
+      "name": "ExtractionDate_DT",
+      "type": "date"
+    },
+    "1": {
+      "name": "SalesRep_ID",
+      "type": "integer"
+    },
+    "2": {
+      "name": "SalesRepNumber_CD",
+      "type": "string",
+      "max_length": 30
+    },
+    "3": {
+      "name": "OperatingUnit_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "4": {
+      "name": "LastUpdateDate_DT",
+      "type": "date"
+    },
+    "5": {
+      "name": "CreationDate_DT",
+      "type": "date"
+    },
+    "6": {
+      "name": "Name_LB",
+      "type": "string",
+      "max_length": 150
+    },
+    "7": {
+      "name": "Status_LB",
+      "type": "string",
+      "max_length": 30
+    },
+    "8": {
+      "name": "PhoneNumber_LB",
+      "type": "string",
+      "max_length": 30
+    },
+    "9": {
+      "name": "ActiveStartDate_DT",
+      "type": "date",
+	  "date_format":"^^([0-2][0-9]|3[01])-(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)-\\d{4}$"
+    },
+    "10": {
+      "name": "EndDate_DT",
+      "type": "date",
+	  "date_format":"^^([0-2][0-9]|3[01])-(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)-\\d{4}$"
+    },
+    "11": {
+      "name": "EmailAdress_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "12": {
+      "name": "GroupId_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "13": {
+      "name": "InputDate_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "14": {
+      "name": "Attribute3_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "15": {
+      "name": "Attribute4_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "16": {
+      "name": "Attribute5_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "17": {
+      "name": "Attribute6_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "18": {
+      "name": "Attribute7_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "19": {
+      "name": "Attribute8_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "20": {
+      "name": "Attribute9_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "21": {
+      "name": "Attribute10_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "22": {
+      "name": "Attribute11_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "23": {
+      "name": "Attribute12_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "24": {
+      "name": "Attribute13_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "25": {
+      "name": "Attribute14_LB",
+      "type": "string",
+      "max_length": 240
+    },
+    "26": {
+      "name": "Attribute15_LB",
+      "type": "string",
+      "max_length": 240
+    }
+  }
+}

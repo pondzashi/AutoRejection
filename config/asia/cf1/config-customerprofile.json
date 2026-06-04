@@ -1,0 +1,169 @@
+{
+  "file_name": "CMA0PCUP",
+    "column_delimiter": "\t",
+	"row_delimiter": "\r\n",
+	"header_row" : 0,
+  "endcoding": "utf_8",	
+	"columns": {
+    "0": {
+      "name": "ExtractionDate_DT",
+      "type": "date",
+	  "date_format":"^^([0-2][0-9]|3[01])-(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)-\\d{4} ([01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d$"
+    },
+    "1": {
+      "name": "CustomerNumber_CD",
+      "type": "string",
+      "max_length": 30
+    },
+    "2": {
+      "name": "Address_ID",
+      "type": "integer"
+    },
+    "3": {
+      "name": "LastUpdateDate_DT",
+      "type": "date",
+	  "date_format":"^^([0-2][0-9]|3[01])-(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)-\\d{4} ([01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d$"
+    },
+    "4": {
+      "name": "CreationDate_DT",
+      "type": "date",
+	  "date_format":"^^([0-2][0-9]|3[01])-(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)-\\d{4} ([01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d$"
+    },
+    "5": {
+      "name": "CurrencyCode_CD",
+      "type": "string",
+      "max_length": 15
+    },
+    "6": {
+      "name": "TransactionCreditLimit_CP",
+      "type": "decimal",
+      "precision": 20,
+      "scale": 5
+    },
+    "7": {
+      "name": "OverallCreditLimit_CP",
+      "type": "decimal",
+      "precision": 20,
+      "scale": 5
+    },
+    "8": {
+      "name": "MinStatementAmount_CP",
+      "type": "decimal",
+      "precision": 20,
+      "scale": 5
+    },
+    "9": {
+      "name": "AutoRECMinReceiptAmount_CP",
+      "type": "decimal",
+      "precision": 20,
+      "scale": 5
+    },
+    "10": {
+      "name": "InterestRate_CP",
+      "type": "decimal",
+      "precision": 20,
+      "scale": 5
+    },
+    "11": {
+      "name": "MinFCBallanceAmount_CP",
+      "type": "decimal",
+      "precision": 20,
+      "scale": 5
+    },
+    "12": {
+      "name": "MinFCInvoiceAmount_CP",
+      "type": "decimal",
+      "precision": 20,
+      "scale": 5
+    },
+    "13": {
+      "name": "ExpirationDate_DT",
+      "type": "date",
+	  "date_format":"^^([0-2][0-9]|3[01])-(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)-\\d{4} ([01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d$"
+    },
+    "14": {
+      "name": "CustomerProfileClassName_LB",
+      "type": "string",
+      "max_length": 30
+    },
+    "15": {
+      "name": "CustomerProfileClassStatusFlag_FL",
+      "type": "string",
+      "max_length": 1
+    },
+    "16": {
+      "name": "CollectorName_LB",
+      "type": "string",
+      "max_length": 30
+    },
+    "17": {
+      "name": "CreditCheckingFlag_FL",
+      "type": "string",
+      "max_length": 1
+    },
+    "18": {
+      "name": "Tolerance_LB",
+      "type": "string",
+      "max_length": 22
+    },
+    "19": {
+      "name": "DiscountTermsFlag_FL",
+      "type": "string",
+      "max_length": 1
+    },
+    "20": {
+      "name": "DunningLetterFlag_FL",
+      "type": "string",
+      "max_length": 1
+    },
+    "21": {
+      "name": "InterestChargesFlag_FL",
+      "type": "string",
+      "max_length": 1
+    },
+    "22": {
+      "name": "StatemenFlag_FL",
+      "type": "string",
+      "max_length": 1
+    },
+    "23": {
+      "name": "CreditBallanceStatementFlag_FL",
+      "type": "string",
+      "max_length": 1
+    },
+    "24": {
+      "name": "PaymentTermCode_CD",
+      "type": "string",
+      "max_length": 15
+    },
+    "25": {
+      "name": "InterestPeriodDays_LB",
+      "type": "string",
+      "max_length": 22
+    },
+    "26": {
+      "name": "PaymentGraceDays_LB",
+      "type": "string",
+      "max_length": 22
+    },
+    "27": {
+      "name": "DiscountGraceDays_LB",
+      "type": "string",
+      "max_length": 22
+    },
+    "28": {
+      "name": "StatementCycle_LB",
+      "type": "string",
+      "max_length": 15
+    },
+    "29": {
+      "name": "LockBoxMatchingOption_LB",
+      "type": "string",
+      "max_length": 30
+    },
+    "30": {
+      "name": "Customer_ID",
+      "type": "integer"
+    }
+  }
+}
