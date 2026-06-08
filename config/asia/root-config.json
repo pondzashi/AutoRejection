@@ -1,8 +1,8 @@
 {
-    "input_path": "C:\\Personal\\CodeAssist\\data-validation\\TEST\\IN\\",
-    "validate_path": "C:\\Personal\\CodeAssist\\data-validation\\output\\validated\\Asia\\cf1\\",
-    "reject_path": "C:\\Personal\\CodeAssist\\data-validation\\output\\reject\\Asia\\cf1\\",
-    "summary_path": "C:\\Personal\\CodeAssist\\data-validation\\output\\summary\\Asia\\cf1\\",
+    "input_path": "./TEST/IN/",
+    "validate_path": "./TEST/output/validated/Asia/cf1/",
+    "reject_path": "./TEST/output/reject/Asia/cf1/",
+    "summary_path": "./TEST/output/summary/Asia/cf1/",
     "column_delimiter": "\t",
 	"row_delimiter": "\r\n",
     "file_extension": ".prod",
