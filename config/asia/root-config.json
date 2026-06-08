@@ -1,5 +1,5 @@
 {
-    "input_path": "C:\\Personal\\CodeAssist\\data-validation\\IN\\",
+    "input_path": "C:\\Personal\\CodeAssist\\data-validation\\TEST\\IN\\",
     "validate_path": "C:\\Personal\\CodeAssist\\data-validation\\output\\validated\\Asia\\cf1\\",
     "reject_path": "C:\\Personal\\CodeAssist\\data-validation\\output\\reject\\Asia\\cf1\\",
     "summary_path": "C:\\Personal\\CodeAssist\\data-validation\\output\\summary\\Asia\\cf1\\",
