@@ -10,17 +10,6 @@ from datetime import datetime
 from itertools import islice
 from charset_normalizer import from_path
 
-#library to get argument from cmd
-import argparse
-
-# สร้าง Argument Parser
-parser = argparse.ArgumentParser(description="Process input and output files.")
-parser.add_argument("conf_root_path", help="Path to the general config file")  # พารามิเตอร์แรก (จำเป็น)
-parser.add_argument("conf_pack_path", help="Path to the pack config file")  # พารามิเตอร์ที่สอง (จำเป็น)
-
-# แปลง Argument เป็นค่าที่ Python ใช้งานได้
-args = parser.parse_args()
-
 
 # =========================
 # Encoding Service
@@ -258,7 +247,7 @@ class Processor:
             total_errors += error_count
 
             if idx % 10 == 0:
-                print(f"Processed {idx * self.config.get("chunk_size", 500)} lines...")
+                print(f"Processed {idx * self.config.get('chunk_size', 500)} lines...")
 
         clean_q.put("DONE")
         error_q.put("DONE")
@@ -286,13 +275,15 @@ class Processor:
 # ENTRY POINT
 # =========================
 if __name__ == "__main__":
-    conf_root_path = f"{args.conf_root_path}"
-    conf_pack_path = f"{args.conf_pack_path}"
+    import argparse
 
-    loader = ConfigLoader(
-        f"{args.conf_root_path}",
-        f"{args.conf_pack_path}"
-    )
+    parser = argparse.ArgumentParser(description="Process input and output files.")
+    parser.add_argument("conf_root_path", help="Path to the general config file")
+    parser.add_argument("conf_pack_path", help="Path to the pack config file")
+
+    args = parser.parse_args()
+
+    loader = ConfigLoader(args.conf_root_path, args.conf_pack_path)
 
     config = loader.load()
 
